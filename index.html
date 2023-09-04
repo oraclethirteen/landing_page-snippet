@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page (snippet)</title>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0a63642c5f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./src/css/style.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="top-header">
+        <div class="top-header__text">Trendy theme for companies, agencies and startups</div>
+        <a href="tel:+441415523000" class="top-header__phone">+44 141 552 3000</a>
+      </div>
+    </div>
+    <hr class="divider">
+    <div class="wrapper">
+      <div class="header">
+        <div class="header-navbar">
+          <a href="#" class="header__logo"><img src="./src/img/logo.png" alt="logo"></a>
+          <ul class="header__menu">
+            <li class="header__menu-item">
+              <a href="#" class="header__menu-link header__menu-link_active">Home</a>
+            </li>
+            <li class="header__menu-item">
+              <a href="#" class="header__menu-link">About Us</a>
+              <ul class="header__submenu">
+                <li class="header__menu-item">
+                  <a href="#" class="header__menu-link">FAQ</a>
+                </li>
+                <li class="header__menu-item"><a href="#" class="header__menu-link">404</a>
+                </li>
+              </ul>
+            </li>
+            <li class="header__menu-item">
+              <a href="#" class="header__menu-link">Service</a>
+            </li>
+            <li class="header__menu-item">
+              <a href="#" class="header__menu-link">Pricing</a>
+            </li>
+          </ul>
+        </div>
+        <div class="header-actions">
+          <button class="btn btn-light">Sign Up</button>
+        </div>
+      </div>
+      <div class="stage">
+        <div class="stage__content">
+          <h1 class="stage__title">Marketing is The Key of Business Success.</h1>
+          <p class="stage__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+            has been</p>
+          <div class="stage__actions">
+            <a href="#" class="btn btn-dark">Contact Us</a>
+            <a href="#" class="link link-arrow">Order similar</a>
+          </div>
+        </div>
+        <img src="./src/img/hero.png" alt="stage image" class="my-paroller" data-paroller-factor="-0.05"
+          data-paroller-type="foreground" data-paroller-direction="vertical">
+        <a href="#features" class="btn-bottom my-paroller" data-paroller-factor="0.025" data-paroller-type="foreground"
+          data-paroller-direction="vertical"><i class="fa-solid fa-arrow-down-long"></i></a>
+      </div>
+      <div id="features" class="features my-paroller" data-paroller-factor="-0.05" data-paroller-type="foreground"
+        data-paroller-direction="horizontal">
+        <div class="features-title__content">
+          <h2 class="features-title">Want you to Boost your Business?</h2>
+          <p class="features-title__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        </div>
+        <div class="features-blocks">
+          <div class="infoblock">
+            <i class="fa-solid fa-calendar-days"></i>
+            <h2 class="infoblock__title">Scheduling</h2>
+            <p class="infoblock__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+              Ipsum has been the industry</p>
+            <a href="#" class="link link-arrow infoblock__link">Read more</a>
+          </div>
+          <div class="infoblock">
+            <i class="fa-solid fa-chart-simple"></i>
+            <h2 class="infoblock__title">Increase conversion</h2>
+            <p class="infoblock__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+              Ipsum has been the industry</p>
+            <a href="#" class="link link-arrow infoblock__link">Read more</a>
+          </div>
+          <div class="infoblock">
+            <i class="fa-solid fa-chart-pie"></i>
+            <h2 class="infoblock__title">Increase analytics</h2>
+            <p class="infoblock__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+              Ipsum has been the industry</p>
+            <a href="#" class="link link-arrow infoblock__link">Read more</a>
+          </div>
+        </div>
+      </div>
+      <div class="article">
+        <img src="./src/img/hero2.png" alt="man" class="article__img"></img>
+        <div class="article__content">
+          <h2 class="article__title">Take Your Online marketing to the next level.</h2>
+          <p class="article__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente quod incidunt illum
+            optio suscipit enim officiis sequi blanditiis, ducimus laboriosam!</p>
+          <div class="article__action">
+            <a href="#" class="btn btn-dark">Get Started</a>
+            <a href="#" class="link link-arrow">Read more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+      integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script src="./src/js/jquery.paroller.min.js"></script>
+    <script>
+      $(".my-paroller").paroller();
+    </script>
+  </body>
+</html>
